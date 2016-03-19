@@ -15,9 +15,13 @@ requirements:
   build:
     - r ==3.1.2
     - curl
+    - libxml2
+    - gsl
   run:
     - r ==3.1.2
     - curl
+    - libxml2
+    - gsl
 source:
   fn: ballgown_1.0.3.tar.gz
   sha256: f79f0db8d9aa7a3c56feb1034dfd4f8fccb4aa4f962c88aebdd1cac728b19698

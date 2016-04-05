@@ -14,10 +14,10 @@ package:
   version: 1.8.2gx
 requirements:
   build:
-  - r ==3.2.1
+  - r 3.2.1
   - libxml2
   run:
-  - r ==3.2.1
+  - r 3.2.1
   - libxml2
 source:
   fn: DESeq2_1.8.2.tar.gz

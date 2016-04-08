@@ -111,6 +111,10 @@ download https://depot.galaxyproject.org/software/gplots/gplots_2.14.2_src_all.t
 
 download_noarch   getopt           1.20.0        f920baa2a0ef7082155c8b666851af0c77534af8b2ca0cd067e7d56fdf3ec501
 download_noarch   rjson            0.2.15        77d00d8f6a1c936329b46f3b8b0be79a165f8c5f1989497f942ecc53dcf6f2ef
+
+download https://depot.galaxyproject.org/software/zlibbioc/zlibbioc_1.14.0_src_all.tar.gz zlibbioc_1.14.0_src_all.tar.gz zlibbioc 0811b4aecdb66a2ee33e806a40f54e0fdde2f4223a3981cccc16df9b7d3567d4
+download https://depot.galaxyproject.org/software/Biostrings/Biostrings_2.36.4_src_all.tar.gz Biostrings_2.36.4_src_all.tar.gz 4f00970da40fd7d188250d52f5a30f3b5c5b549bdd9b68ec191e5c4e405fe20c
+
 download_noarch   Biostrings       2.34.1        b00af8f8eb1dbafa4e0ab25b571fa0a9484376c761b4de949eb6bbb7d41bd0cd
 download_noarch   rtracklayer      1.26.2        c0284805d84f83f6189dc5a58461ea9ace8ec43dc301b0b317f4c3b493bf8bdb
 download_noarch   biomaRt          2.22.0        980d74b48c687eb8de59753841b4b407068f08a87675729d0fe175e8cb63c55e

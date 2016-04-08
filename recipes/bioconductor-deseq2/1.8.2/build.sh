@@ -534,3 +534,9 @@ grep -v '^Priority: ' DESCRIPTION.old > DESCRIPTION
 $R CMD INSTALL --build .
 cd .. && rm -rf rjson
 
+wget --no-check-certificate https://depot.galaxyproject.org/software/GenomicFeatures/GenomicFeatures_1.18.3_src_all.tar.gz
+sha256sum GenomicFeatures_1.18.3_src_all.tar.gz | awk '{ if ($1 == "9d9b3108b0db6e5e17b7b4cef1bca238d2124064506bcca7879e1dd53edaeeeb") exit 0; else exit 1}'
+tar xfz GenomicFeatures_1.18.3_src_all.tar.gz
+cd GenomicFeatures
+$R CMD INSTALL --build .
+cd .. && rm -rf  GenomicFeatures

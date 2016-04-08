@@ -5,7 +5,7 @@ about:
     assays and test for differential expression based on a model using the negative
     binomial distribution'
 build:
-  number: 0
+  number: 1
   rpaths:
   - lib/R/lib/
   - lib/
@@ -26,5 +26,6 @@ source:
 test:
   commands:
   - sh test.sh DESeq2
+  - sh test.sh GenomicFeatures
   files:
   - test.sh

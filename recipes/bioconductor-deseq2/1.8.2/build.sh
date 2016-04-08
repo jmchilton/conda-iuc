@@ -46,8 +46,8 @@ download https://depot.galaxyproject.org/software/lambda.r/lambda.r_1.1.7_src_al
 download https://depot.galaxyproject.org/software/futile.options/futile.options_1.0.0_src_all.tar.gz futile.options_1.0.0_src_all.tar.gz futile.options ee84ece359397fbb63f145d11af678f5c8618570971e78cc64ac60dc0d14e8c2
 download https://depot.galaxyproject.org/software/futile.logger/futile.logger_1.4.1_src_all.tar.gz futile.logger_1.4.1_src_all.tar.gz futile.logger a1e485e943d288b92a2af3337b333be95d1b51246dd14be9f18ae5ce626894de
 download https://depot.galaxyproject.org/software/snow/snow_0.3-13_src_all.tar.gz snow_0.3-13_src_all.tar.gz snow ceb6af66f8c988a7606c4ba2d7ccf84c14bca6c376f8d9133089296607c14bc1
+download https://depot.galaxyproject.org/software/BiocParallel/BiocParallel_1.2.20_src_all.tar.gz BiocParallel_1.2.20_src_all.tar.gz BiocParallel b537ff2f7a46982b5897805c40cba63846acfdf855530c3c0c36d57276fb456a
 
-download_noarch   BiocParallel     1.0.3         339c7c8285637afafa0f3ca3d429ef002df5da1653490984cd64662f7cabf71f
 download_noarch   DBI              0.3.1         1c26535720f146fae8cc9ef6e190619967abf296706a5b5a1e8242cbbb5a4576
 download_noarch   RSQLite          1.0.0         8e0cfca19afbc61f40c6d86018cd723a7e00f16d0944c4637f07a18fb6d76121
 download_noarch   AnnotationDbi    1.28.1        214a293286af854001ce46b9d866ea5b3fbc4e6b8383be0952f63491e4f6171c

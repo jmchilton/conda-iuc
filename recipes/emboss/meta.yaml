@@ -14,6 +14,12 @@ source:
   url: http://depot.galaxyproject.org/package/darwin/x86_64/emboss/emboss-5.0.0-Darwin-x86_64.tgz   # [osx]
   md5: c1c35a279a0e35ab3a0eae9286990ace # [osx]
 
+requirements:
+  build:
+    - python
+  run:
+    - zlib
+
 about:
   home: http://emboss.open-bio.org/
   license: GPL
@@ -21,11 +27,7 @@ about:
 
 test:
   commands:
-    - export EMBOSS_ACDROOT=$PREFIX/share/EMBOSS/acd
-    - export EMBOSS_DATA=$PREFIX/share/EMBOSS/data
-    - export PLPLOT_LIB=$PREFIX/share/EMBOSS
-    # test a few tools 
-    -  needle --help 2>/dev/null
-    -  transeq --help 2>/dev/null
-    -  sixpack --help 2>/dev/null
-    -  seqret --help 2>/dev/null
+    -  needle --help
+    -  transeq --help
+    -  sixpack --help
+    -  seqret --help

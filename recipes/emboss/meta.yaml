@@ -21,8 +21,11 @@ about:
 
 test:
   commands:
+    - export EMBOSS_ACDROOT=$PREFIX/share/EMBOSS/acd
+    - export EMBOSS_DATA=$PREFIX/share/EMBOSS/data
+    - export PLPLOT_LIB=$PREFIX/share/EMBOSS
     # test a few tools 
-    -  needle --help 2>/dev/null 
-    -  transeq --help 2>/dev/null 
-    -  sixpack --help 2>/dev/null 
-    -  seqret --help 2>/dev/null 
+    -  needle --help 2>/dev/null
+    -  transeq --help 2>/dev/null
+    -  sixpack --help 2>/dev/null
+    -  seqret --help 2>/dev/null

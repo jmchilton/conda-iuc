@@ -1,0 +1,31 @@
+package:
+  name: emboss
+  version: "5.0.0"
+
+build:
+  number: 0
+  skip: False
+
+source:
+  fn: emboss-5.0.0-Linux-x86_64.tgz     # [linux]
+  url: http://depot.galaxyproject.org/package/linux/x86_64/emboss/emboss-5.0.0-Linux-x86_64.tgz     # [linux]
+  md5: 8d3356913d4b967e3a29f496e00d3e06     # [linux]
+  fn: emboss-5.0.0-Darwin-x86_64.tgz    # [osx]
+  url: http://depot.galaxyproject.org/package/darwin/x86_64/emboss/emboss-5.0.0-Darwin-x86_64.tgz   # [osx]
+  md5: c1c35a279a0e35ab3a0eae9286990ace # [osx]
+
+about:
+  home: http://emboss.open-bio.org/
+  license: GPL
+  summary: The European Molecular Biology Open Software Suite 
+
+test:
+  commands:
+    - export EMBOSS_ACDROOT=$PREFIX/share/EMBOSS/acd
+    - export EMBOSS_DATA=$PREFIX/share/EMBOSS/data
+    - export PLPLOT_LIB=$PREFIX/share/EMBOSS
+    # test a few tools 
+    -  needle --help 2>/dev/null
+    -  transeq --help 2>/dev/null
+    -  sixpack --help 2>/dev/null
+    -  seqret --help 2>/dev/null
